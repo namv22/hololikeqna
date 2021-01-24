@@ -1,0 +1,30 @@
+{
+  "name": "discord-clone",
+  "version": "1.0.0",
+  "description": "Discord chat frontend",
+  "main": "src/main.js",
+  "author": "Gabriel Lopes",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "socket.io": "^3.0.3",
+    "socket.io-client": "^3.0.3",
+    "vue": "^2.6.11",
+    "vue-material-design-icons": "^4.11.0",
+    "vue-socket.io": "^3.0.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
