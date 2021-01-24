@@ -12,34 +12,34 @@
       </ChannelMessage> -->
         <div v-for="qna in qnas" :key="qna.id">
             <ChannelMessage isBot hasMention authorName="User" :date="getDate">
-                <Mention>TMCHVD</Mention>  {{ qna.question }}
+                <Mention>TMCHVD</Mention> {{ qna.question }}
             </ChannelMessage>
 
-            <ChannelMessage isHarry  v-if="qna.harry.length" authorName="Harry" :date="getDate">
+            <ChannelMessage isHarry v-if="qna.harry.length" authorName="Harry" :date="getDate">
                 {{ qna.harry }}
             </ChannelMessage>
-            <ChannelMessage isOkakoro  v-if="qna.okakoro.length" authorName="OkaKoro" :date="getDate">
+            <ChannelMessage isOkakoro v-if="qna.okakoro.length" authorName="OkaKoro" :date="getDate">
                 {{ qna.okakoro }}
             </ChannelMessage>
-            <ChannelMessage isInu  v-if="qna.inu.length" authorName="Hwang Inu" :date="getDate">
+            <ChannelMessage isInu v-if="qna.inu.length" authorName="Hwang Inu" :date="getDate">
                 {{ qna.inu }}
             </ChannelMessage>
-            <ChannelMessage isToki  v-if="qna.toki.length" authorName="Toki" :date="getDate">
+            <ChannelMessage isToki v-if="qna.toki.length" authorName="Toki" :date="getDate">
                 {{ qna.toki }}
             </ChannelMessage>
-            <ChannelMessage isHaru  v-if="qna.haru.length" authorName="Haruki" :date="getDate">
+            <ChannelMessage isHaru v-if="qna.haru.length" authorName="Haruki" :date="getDate">
                 {{ qna.haru }}
             </ChannelMessage>
-            <ChannelMessage isOi  v-if="qna.oi.length" authorName="Oi" :date="getDate">
+            <ChannelMessage isOi v-if="qna.oi.length" authorName="Oi" :date="getDate">
                 {{ qna.oi }}
             </ChannelMessage>
-            <ChannelMessage isKuro  v-if="qna.kuro.length" authorName="Kuro" :date="getDate">
+            <ChannelMessage isKuro v-if="qna.kuro.length" authorName="Kuro" :date="getDate">
                 {{ qna.kuro }}
             </ChannelMessage>
-            <ChannelMessage isGin  v-if="qna.gin.length" authorName="Gin" :date="getDate">
+            <ChannelMessage isGin v-if="qna.gin.length" authorName="Gin" :date="getDate">
                 {{ qna.gin }}
             </ChannelMessage>
-            <ChannelMessage isTmchvd  v-if="qna.tmchvd.length" authorName="TMCHVD" :date="getDate">
+            <ChannelMessage isTmchvd v-if="qna.tmchvd.length" authorName="TMCHVD" :date="getDate">
                 {{ qna.tmchvd }}
             </ChannelMessage>
         </div>

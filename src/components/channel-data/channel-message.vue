@@ -4,7 +4,7 @@
     <img v-else-if="isHarry" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/harry.jpg" alt="harry" />
     <img v-else-if="isOkakoro" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/pedo.jpg" alt="okakoro" />
     <img v-else-if="isInu" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/inu.png" alt="inu" />
-    <img v-else-if="isToki" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/discord-logo.svg" alt="toki" />
+    <img v-else-if="isToki" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/toki.webp" alt="toki" />
     <img v-else-if="isHaru" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/haru.png" alt="haru" />
     <img v-else-if="isOi" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/oi.png" alt="oi" />
     <img v-else-if="isKuro" style="width: 48px; height: 48px; display: flex; margin-left: 10px; margin-right: 10px;" src="../../assets/images/kuro.jpg" alt="kuro" />
